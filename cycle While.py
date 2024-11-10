@@ -5,7 +5,7 @@ while True:
         print(my_list[0])
     else:
         break
-    if my_list[6] > 0:
+    if my_list[1] > 0:
         print(my_list[1])
     else:
         break
