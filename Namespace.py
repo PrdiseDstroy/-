@@ -3,10 +3,10 @@ def count_calls():
     global calls
     calls += 1
     return calls
-def string_info(a):
+def string_info(string):
     count_calls()
     global calls
-    b = (len(a), a.upper(), a.lower())
+    b = (len(string), string.upper(), string.lower())
     return b
 def is_contains(string, list_to_search ):
     count_calls()
